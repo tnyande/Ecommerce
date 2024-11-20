@@ -1,0 +1,104 @@
+footer{
+    padding: 40px;
+    margin-top: 30px;
+    background-color: #EFEFEF;;
+}
+
+.foot-address {
+    display: flex;
+    text-align: center;
+    font-size: 16px;
+    
+}
+
+.icon-foot {
+    padding: auto;
+    margin-right: 10px;
+}
+
+.Subscribe {
+    margin-top: 30px;
+}
+
+hr.h-line2 {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.sub-input {
+    width: 250px;
+    border: 2px solid #d9d9d9;
+    padding: 13px;
+    
+}
+
+.foot-but1{
+    margin-top: 10px;
+    position: relative;
+    margin-left: -8px;
+    padding: 10px 15px 8px;
+    margin-top: 5px;
+}
+
+.copyright {
+    font-size: 16px;
+}
+
+.copyright:before {
+    content: " ";
+    display: block;
+    border-bottom: 1px solid black;
+  }
+
+@media (min-width:901px) {
+     
+     .Subscribe {
+        display: inline-block;
+        margin-left: 250px;
+        margin-top: 0px ;
+     }
+     .container-foot {
+        display: flex;
+        font-size: 16px;
+     }
+     .sub-input {
+        width: 250px;
+        border: 2px solid #d9d9d9;
+        padding: 13px;
+        
+    }
+    .foot-address, .copyright {
+        font-size: 16px;
+    }
+    footer{
+        padding-left: 30px;
+    }
+
+
+    
+}
+
+@media (min-width:700px) and (max-width:900px) {
+     
+    .Subscribe {
+       display: inline-block;
+       margin-left: 120px;
+       margin-top: 0px ;
+    }
+    .container-foot {
+       display: flex;
+       font-size: 13px;
+    }
+
+    .sub-input {
+        width: 190px;
+        border: 2px solid #d9d9d9;
+        padding: 10px;
+        
+    }
+    .foot-address, .copyright {
+        font-size: 13px;
+    }
+
+   
+}

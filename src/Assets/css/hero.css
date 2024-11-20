@@ -1,0 +1,95 @@
+/* CSS for the hero setion */
+.header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),url(../images/2.webp);
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .container-header{
+    width:90%;
+    margin: 0 auto;
+    position: absolute;
+    top: 32px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+.header .headline{
+    background-color: white;
+    justify-content: center;
+    opacity: 0.7;
+    padding: 35px 20px;
+    align-items: center;
+    text-align: center;
+    width: 340px;
+    z-index: 2;
+}
+.headline h1{
+    font-size: 400px;
+    font-size: 30px;
+    margin-bottom: 14px;
+    line-height: 1.2;
+}
+
+ul li{
+    list-style: none;
+}
+
+/*CSS for screen size of 900px */
+
+@media (max-width:900px) {
+    .logo-items{
+        display: none;
+    }
+    
+}
+
+/* CSS for hero content */
+
+.logo-items ul{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.logo-items a{
+    color: white;
+    text-decoration: none;
+}
+.logo-items li{
+    margin-right: 10px;
+}
+
+.logo-items li:first-child{
+    margin-left: 10px;
+}
+
+
+
+.feather-icons{
+    color: white;
+}
+
+.shop{
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    color: black;
+    border-bottom: 0.5px solid black;
+    
+}
+
+/*CSS for screen size of 900px */
+@media (min-width:900px) {
+    .header .headline{
+        width: 450px;
+        padding: 45px 30px;
+    }
+    
+}
