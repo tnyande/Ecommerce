@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/tnyande/Ecommerce/static/css/main.98c5be4c.css",
+    "main.js": "/tnyande/Ecommerce/static/js/main.d37175f7.js",
+    "static/js/453.53badb82.chunk.js": "/tnyande/Ecommerce/static/js/453.53badb82.chunk.js",
+    "static/media/6.webp": "/tnyande/Ecommerce/static/media/6.ff290a458611ad96dd2a.webp",
+    "static/media/13.webp": "/tnyande/Ecommerce/static/media/13.c3c47e58503180b305fa.webp",
+    "static/media/4.webp": "/tnyande/Ecommerce/static/media/4.afb423922aafdd9a3a86.webp",
+    "static/media/3.webp": "/tnyande/Ecommerce/static/media/3.b046f65b8c6a37e61756.webp",
+    "static/media/5.webp": "/tnyande/Ecommerce/static/media/5.4b0a38926cc397d87f48.webp",
+    "index.html": "/tnyande/Ecommerce/index.html",
+    "main.98c5be4c.css.map": "/tnyande/Ecommerce/static/css/main.98c5be4c.css.map",
+    "main.d37175f7.js.map": "/tnyande/Ecommerce/static/js/main.d37175f7.js.map",
+    "453.53badb82.chunk.js.map": "/tnyande/Ecommerce/static/js/453.53badb82.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.98c5be4c.css",
+    "static/js/main.d37175f7.js"
+  ]
+}
